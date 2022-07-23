@@ -22,12 +22,12 @@
 
             <div class="container-xxl bg-primary page-header">
                 <div class="container text-center">
-                    <h1 class="text-white animated zoomIn mb-3">Kebijakan SPMI</h1>
+                    <h1 class="text-white animated zoomIn mb-3">Kebijakan Mutu SPMI</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="#">Buku SPMI</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Kebijakan SPMI</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Kebijakan Mutu SPMI</li>
                         </ol>
                         <ol style="margin-top: 20px">
                             <form action="{{url('buku-SPMI/kebijakan-SPMI')}}" method="post">

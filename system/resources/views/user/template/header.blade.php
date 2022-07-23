@@ -21,7 +21,7 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle {{request()->is('buku-SPMI/kebijakan-SPMI', 'buku-SPMI/manual-PPEPP', 'buku-SPMI/standar-pendidikan', 'buku-SPMI/standar-penelitian', 'buku-SPMI/standar-PKM', 'buku-SPMI/SN-Dikti', 'buku-SPMI/SOP') ? 'active' : ''}}" data-bs-toggle="dropdown">Buku SPMI</a>
                             <div class="dropdown-menu m-0">
-                                <a href="{{url('buku-SPMI/kebijakan-SPMI')}}" class="dropdown-item {{request()->is('buku-SPMI/kebijakan-SPMI') ? 'active' : ''}}">Kebijakan Mutu</a>
+                                <a href="{{url('buku-SPMI/kebijakan-SPMI')}}" class="dropdown-item {{request()->is('buku-SPMI/kebijakan-SPMI') ? 'active' : ''}}">Kebijakan Mutu SPMI</a>
                                 <a href="{{url('buku-SPMI/manual-PPEPP')}}" class="dropdown-item {{request()->is('buku-SPMI/manual-PPEPP') ? 'active' : ''}}">Manual Standar PPEPP</a>
                                 <a href="{{url('buku-SPMI/standar-pendidikan')}}" class="dropdown-item {{request()->is('buku-SPMI/standar-pendidikan') ? 'active' : ''}}">Standar Pendidikan</a>
                                 <a href="{{url('buku-SPMI/standar-penelitian')}}" class="dropdown-item {{request()->is('buku-SPMI/standar-penelitian') ? 'active' : ''}}">Standar Penelitian</a>

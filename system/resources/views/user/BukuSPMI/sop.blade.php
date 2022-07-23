@@ -22,12 +22,12 @@
 
             <div class="container-xxl bg-primary page-header">
                 <div class="container text-center">
-                    <h1 class="text-white animated zoomIn mb-3">Standar Operasi Prosedur</h1>
+                    <h1 class="text-white animated zoomIn mb-3">Standar Operasional Prosedur</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="#">Buku SPMI</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Standar Operasi Prosedur</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Standar Operasional Prosedur</li>
                         </ol>
                         <ol style="margin-top: 20px">
                             <form action="{{url('buku-SPMI/SOP')}}" method="post">
@@ -62,8 +62,8 @@
                     <div class="col-lg-7">
                         <div class="row g-5">
                             <div class="col-sm-12 wow fadeIn" data-wow-delay="0.1s">
-                                <h3 class="mb-0">Standar Operasi Prosedur</h3>
-                                <p style="text-align: justify;"><b>Prosedur Operasi Standar atau Standar Operasional Prosedur</b> yang dapat disingkat sebagai SOP, adalah suatu alur/cara kerja yang sudah ter-standarisasi, Standar Operasional Prosedur ini memiliki kekuatan sebagai suatu petunjuk. Hal ini mencakup hal-hal dari operasi yang memiliki suatu prosedur tertulis yang pasti.</p> <br>
+                                <h3 class="mb-0">Standar Operasional Prosedur</h3>
+                                <p style="text-align: justify;"><b>Prosedur Operasional Standar atau Standar Operasional Prosedur</b> yang dapat disingkat sebagai SOP, adalah suatu alur/cara kerja yang sudah ter-standarisasi, Standar Operasional Prosedur ini memiliki kekuatan sebagai suatu petunjuk. Hal ini mencakup hal-hal dari operasi yang memiliki suatu prosedur tertulis yang pasti.</p> <br>
                                 <span>Dokumen SOP SPMI POLITAP</span>
                                 <ul class="list-group list-group-flush">
                                 @foreach($list_sops as $sop)
