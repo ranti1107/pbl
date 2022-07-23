@@ -14,20 +14,20 @@
 						@method("PUT")
 						@csrf
 						<div class="form-group">
-							<label for="" class="control-label"> Current Password </label>
+							<label for="" class="control-label"> Kata Sandi Saat Ini </label>
 							<input type="password" name="lama" class="form-control">
 						</div>
 						<hr>
 						<div class="form-group">
-							<label for="" class="control-label"> New Password </label>
+							<label for="" class="control-label"> Kata Sandi Baru </label>
 							<input type="password" name="baru" class="form-control">
 						</div>
 						<div class="form-group">
-							<label for="" class="control-label"> Confirm New Password </label>
+							<label for="" class="control-label"> Konfirmasi Kata Sandi Baru </label>
 							<input type="password" name="konfirmasi" class="form-control">
 						</div>
 						<div class="form-group">
-							<button class="btn btn-info" style="background-color: #008080;"><i class="fa fa-save"></i> Save </button>
+							<button class="btn btn-info" style="background-color: #008080;"><i class="fa fa-save"></i> Simpan </button>
 						</div>
 					</form>
 				</div>

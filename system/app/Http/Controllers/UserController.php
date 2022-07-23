@@ -12,9 +12,6 @@ class UserController extends Controller {
 	return view ('admin.User.index', $data);
 	}
 
-	function create(){
-		return view ('admin.user.create');
-	}
 
 	function store(Request $request){
 		$request->validate([
