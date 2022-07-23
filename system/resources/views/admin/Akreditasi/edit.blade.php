@@ -6,7 +6,7 @@
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Edit Data File</h4>
+                  <h4 class="card-title">Edit Dokumen Akreditasi</h4>
                   <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left" method="POST" action="{{url('admin/Akreditasi/simpan', $akreditasi->id)}}" enctype="multipart/form-data">
                             @csrf
                             @method("PUT")

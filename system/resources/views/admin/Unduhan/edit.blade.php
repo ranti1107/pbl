@@ -6,7 +6,7 @@
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Edit Rincian File</h4>
+                  <h4 class="card-title">Edit Dokumen Akademik</h4>
                   <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left" method="POST" action="{{url('admin/Unduhan/simpan', $unduhan->id)}}" enctype="multipart/form-data">
                             @csrf
                             @method("PUT")

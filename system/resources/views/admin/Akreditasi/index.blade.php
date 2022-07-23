@@ -6,7 +6,7 @@
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-header" style="background-color: #1F618D;">
-                  <h4 class="card-title" style="color: #fff;margin-top: 0.75rem">Tabel Akreditasi</h4>
+                  <h4 class="card-title" style="color: #fff;margin-top: 0.75rem">Tabel Dokumen Akreditasi</h4>
                 </div>
                 <div class="card-body">
                   @include('admin.template.utils.notif')
